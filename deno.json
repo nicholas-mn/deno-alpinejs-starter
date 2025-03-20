@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-all npm:parcel src/index.html",
+    "build": "deno run --allow-all npm:parcel build src/index.html"
+  },
+  "imports": {
+    "@types/alpinejs": "npm:@types/alpinejs@^3.13.11",
+    "alpinejs": "npm:alpinejs@^3.14.9",
+    "parcel": "npm:parcel@^2.14.1"
+  },
+  "nodeModulesDir":"auto"
+}
